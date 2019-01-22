@@ -1,7 +1,5 @@
-
-# call your method here!
-def hello_t(["Tim", "Tom", "jim"]) do |name|
+hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
-  puts "Hi, #{name}"
+    puts "Hi, #{name}"
   end
 end
